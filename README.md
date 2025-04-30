@@ -29,12 +29,15 @@
  ┣ 📂node_modules  
  ┣ 📂public   
  ┃ ┣ 📂models  
+ ┃ ┃ ┣ 📜group1-shard1of2.bin  
+ ┃ ┃ ┣ 📜group1-shard2of2.bin     
+ ┃ ┃ ┗ 📜models.json
  ┃ ┣ 📜favicon.ico  
  ┃ ┣ 📜index.html  
  ┃ ┣ 📜logo192.png  
  ┃ ┣ 📜logo512.png  
  ┃ ┣ 📜manifest.json  
- ┃ ┣ 📜robot.txt   
+ ┃ ┗ 📜robot.txt   
  ┣ 📂src  
  ┃ ┣ 📜App.css  
  ┃ ┣ 📜App.js  
