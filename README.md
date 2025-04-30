@@ -24,27 +24,27 @@
     `localhost:3000`
 
 ## 프로젝트 폴더 구조
-📦AIMaker_Face_Sentiment_Analysis
- ┣ 📂.git
- ┣ 📂node_modules
- ┣ 📂public 
- ┃ ┣ 📂models
- ┃ ┣ 📜favicon.ico
- ┃ ┣ 📜index.html
- ┃ ┣ 📜logo192.png
- ┃ ┣ 📜logo512.png
- ┃ ┣ 📜manifest.json
- ┃ ┣ 📜robot.txt 
- ┣ 📂src
- ┃ ┣ 📜App.css
- ┃ ┣ 📜App.js
- ┃ ┣ 📜index.css
- ┃ ┣ 📜index.js
- ┃ ┗ 📜reportWebVitals.js
- ┣ 📜.gitignore
- ┣ 📜Dockerfile
- ┣ 📜README.md
- ┣ 📜emotion_recognition_model.h5
- ┣ 📜emotion_recognition_model.tflite
- ┣ 📜package-lock.json
- ┗ 📜package.json
+📦AIMaker_Face_Sentiment_Analysis  
+ ┣ 📂.git  
+ ┣ 📂node_modules  
+ ┣ 📂public   
+ ┃ ┣ 📂models  
+ ┃ ┣ 📜favicon.ico  
+ ┃ ┣ 📜index.html  
+ ┃ ┣ 📜logo192.png  
+ ┃ ┣ 📜logo512.png  
+ ┃ ┣ 📜manifest.json  
+ ┃ ┣ 📜robot.txt   
+ ┣ 📂src  
+ ┃ ┣ 📜App.css  
+ ┃ ┣ 📜App.js  
+ ┃ ┣ 📜index.css  
+ ┃ ┣ 📜index.js  
+ ┃ ┗ 📜reportWebVitals.js   
+ ┣ 📜.gitignore  
+ ┣ 📜Dockerfile  
+ ┣ 📜README.md  
+ ┣ 📜emotion_recognition_model.h5  
+ ┣ 📜emotion_recognition_model.tflite  
+ ┣ 📜package-lock.json  
+ ┗ 📜package.json  
