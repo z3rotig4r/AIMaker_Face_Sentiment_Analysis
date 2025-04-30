@@ -180,7 +180,7 @@ function App() {
 
   // 성공 여부 체크
   useEffect(() => {
-    if (isStarted && selectedEmotion && emotionResults[selectedEmotion.toLowerCase()] >= 0.7) {
+    if (isStarted && selectedEmotion && emotionResults[selectedEmotion.toLowerCase()] >= 0.4) {
       setIsSuccess(true);
       if (animationId.current) {
         cancelAnimationFrame(animationId.current);
