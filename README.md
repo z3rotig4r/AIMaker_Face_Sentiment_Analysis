@@ -2,10 +2,11 @@
 > React 기반 Realtime-Face-Sentiment-Analysis 프로그램 (w/ tensorflowjs)
 
 ## 프로젝트 실행방법
-0. React 실행환경 설정
+0. React 환경 구축
+
 1. 깃허브 레포지토리 클론
     ```
-    https://github.com/z3rotig4r/AIMaker_Face_Sentiment_Analysis.git
+    git clone https://github.com/z3rotig4r/AIMaker_Face_Sentiment_Analysis.git
     ```
 2. 로컬 프로젝트 폴더로 이동
    ```
@@ -19,6 +20,31 @@
     ```
     npm start
     ```
+5. 로컬에 생성된 웹 페이지 접근
+    `localhost:3000`
 
 ## 프로젝트 폴더 구조
-
+📦AIMaker_Face_Sentiment_Analysis
+ ┣ 📂.git
+ ┣ 📂node_modules
+ ┣ 📂public 
+ ┃ ┣ 📂models
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜index.html
+ ┃ ┣ 📜logo192.png
+ ┃ ┣ 📜logo512.png
+ ┃ ┣ 📜manifest.json
+ ┃ ┣ 📜robot.txt 
+ ┣ 📂src
+ ┃ ┣ 📜App.css
+ ┃ ┣ 📜App.js
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜index.js
+ ┃ ┗ 📜reportWebVitals.js
+ ┣ 📜.gitignore
+ ┣ 📜Dockerfile
+ ┣ 📜README.md
+ ┣ 📜emotion_recognition_model.h5
+ ┣ 📜emotion_recognition_model.tflite
+ ┣ 📜package-lock.json
+ ┗ 📜package.json
