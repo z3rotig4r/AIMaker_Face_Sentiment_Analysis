@@ -191,12 +191,17 @@ function App() {
   // 이미지 전처리 함수
   const processImage = (img) => {
     return tf.tidy(() => {
-      // [1, 48, 48, 3]로 리사이즈, 컬러 유지
-      return tf.browser.fromPixels(img)
+      // 이미지를 [48, 48, 3]으로 리사이즈
+        const resized = tf.browser.fromPixels(img)
         .resizeBilinear([48, 48])
         .toFloat()
-        .div(255.0)
-        .expandDims(0); // [1, 48, 48, 3]
+        .div(255.0);
+      
+      // RGB 채널을 평균내어 흑백으로 변환 (채널 축인 2번 축을 기준으로 평균)
+      const grayscale = resized.mean(2, true); // [48, 48, 1] 형태가 됨
+      
+      // 배치 차원 추가
+      return grayscale.expandDims(0); // [1, 48, 48, 1]
     });
   };
 
