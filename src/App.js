@@ -358,7 +358,7 @@ function App() {
               <div style={{ marginTop: '20px' }}>
                 <h3>목표 달성률</h3>
                 <h2>{(emotionResults[selectedEmotion.toLowerCase()] * 100).toFixed(1)}%</h2>
-                <p>{emotionResults[selectedEmotion.toLowerCase()] >= 0.7 ? '✅ 목표 달성!' : '⏳ 진행 중...'}</p>
+                <p>{emotionResults[selectedEmotion.toLowerCase()] >= 0.4 ? '✅ 목표 달성!' : '⏳ 진행 중...'}</p>
               </div>
             </div>
             
