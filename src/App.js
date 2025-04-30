@@ -14,12 +14,12 @@ const emotionLabels = {
 };
 
 const emotionImages = {
-  angry: 'https://png.pngtree.com/png-vector/20250401/ourlarge/pngtree-angry-man-in-intense-emotional-expression-png-image_15923294.png',
-  disgust: 'https://mblogthumb-phinf.pstatic.net/MjAyNDA0MjJfNCAg/MDAxNzEzNzc1MTA4ODY2.8bTumRkTaHImw_EvSFcX2nZAzo5kovBB6MSXtS0XcJgg.Hab7Vr3_0I5SaryPCCest0WCXUmuHQ4qaxtsiFr-t-gg.JPEG/IMG_2218.JPG?type=w800',
+  angry: 'https://i.namu.wiki/i/TiPeiVX03crD9UIcCZ3edz-xknhXkVHokJic-4iWTknGtg7njmHQGrdOHjxVzJGKrJSpWo6vYN-Qir7q8Z1kaP8qV13tmSk0h-FhO5yxmsPRIuj9WWvTJ8Jn99SLIrQfLpaCifFfsn1BHKtJ_N89xw.webp',
+  disgust: 'https://i.namu.wiki/i/0FbYsOE9b_Csi9_KqbX-bU_4rXfjWIB3C-ovS6XVakA2dJfwe5uqfvUyX_bZUKq3PPzkGqM7aqiOK8kq8Njm0kFURTAGPnpo_GZMBZseEsXudgoiKvWhFU9rBsdf5_Srky6G3k8L34GTwIMMWXW0pw.webp',
   fear: 'https://previews.123rf.com/images/camrocker/camrocker1304/camrocker130400347/19362439-%EB%91%90%EB%A0%A4%EC%9A%B4-%ED%91%9C%EC%A0%95%EC%9C%BC%EB%A1%9C-20-%EB%8C%80-%EB%B0%B1%EC%9D%B8-%EB%82%A8%EC%9E%90.jpg',
-  happy: 'https://png.pngtree.com/png-vector/20250325/ourlarge/pngtree-man-s-face-illuminated-with-pure-happiness-shows-the-intense-joy-png-image_15863589.png',
-  sad: 'https://example.com/sad.png',
-  surprise: 'https://png.pngtree.com/element_our/20240813/61279a2d98031dd7fb8c1ce2af9496bc.png'
+  happy: 'https://i.namu.wiki/i/n8K6xlXiVaqNFb70kC9EGj6JxlbbUbaOOSZnkS9vUGDE4h9G_ZwtJWaOIThGq5S9GTHTE28PV3Jle3jARNs99HUbPZu5ySAbVwicD_2E8w3ZTDKixkorliUFW4LTGgXjnESsRTSAWgnbB7WfakNtSQ.webp',
+  sad: 'https://i.namu.wiki/i/GHK43pum9pAkFnvEsa1Qmooe0-bHOrxw7EgHccc68zPjGtjgxQIh7su0oFaVsI4WJQCS0c4-o_Y9tAGc8aVFEtQXKW_57Be6ha07mx2lK-oagva-4DmJFkdgBxgV5sjd6PXbiY2CJesYjKYhvz9EXA.webp',
+  surprise: 'https://i.namu.wiki/i/znGSAu8SrTbRH7u39-rnSUTg6gdne_3CsL8Fz44S9sb7N0WdSByFU3hBJKSYEEP5gh-dT2VbseGMDHdPj49F2uJQi-E-eIqndqNd-JCm5nFamJcQqfbii_r9GZCyRTeC0fUIyxWgPabPL3404yMurg.webp'
 };
 
 // 스타일 컴포넌트
