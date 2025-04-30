@@ -31,7 +31,7 @@
  ┃ ┣ 📂models  
  ┃ ┃ ┣ 📜group1-shard1of2.bin  
  ┃ ┃ ┣ 📜group1-shard2of2.bin     
- ┃ ┃ ┗ 📜models.json
+ ┃ ┃ ┗ 📜models.json  
  ┃ ┣ 📜favicon.ico  
  ┃ ┣ 📜index.html  
  ┃ ┣ 📜logo192.png  
