@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import * as tf from "@tensorflow/tfjs";
 import Webcam from "react-webcam";
 import styled from 'styled-components';
+import { Helmet } from "react-helmet";
 
 const EMOTIONS = ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise"];
 const emotionLabels = {
@@ -305,8 +306,9 @@ function App() {
 
       {!isStarted ? (
         <LeftPanel>
-          <Title>감정 표현 게임</Title>
-          <h2>표현할 감정을 선택해주세요.</h2>
+          <Title>서청센 페스티벌 - AI를 이겨라! 세번째 게임</Title>
+          <h2>감정 표현 게임</h2>
+          <h3>표현할 감정을 선택해주세요.</h3>
           
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px' }}>
             {EMOTIONS.map((emotion) => (
