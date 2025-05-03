@@ -181,7 +181,7 @@ function App() {
 
   // 성공 여부 체크
   useEffect(() => {
-    if (isStarted && selectedEmotion && emotionResults[selectedEmotion.toLowerCase()] >= 0.3) {
+    if (isStarted && selectedEmotion && emotionResults[selectedEmotion.toLowerCase()] >= 0.4) {
       setIsSuccess(true);
       if (animationId.current) {
         cancelAnimationFrame(animationId.current);
@@ -360,7 +360,7 @@ function App() {
               <div style={{ marginTop: '20px' }}>
                 <h3>목표 달성률</h3>
                 <h2>{(emotionResults[selectedEmotion.toLowerCase()] * 100).toFixed(1)}%</h2>
-                <p>{emotionResults[selectedEmotion.toLowerCase()] >= 0.3 ? '✅ 목표 달성!' : '⏳ 진행 중...'}</p>
+                <p>{emotionResults[selectedEmotion.toLowerCase()] >= 0.4 ? '✅ 목표 달성!' : '⏳ 진행 중...'}</p>
               </div>
             </div>
             
