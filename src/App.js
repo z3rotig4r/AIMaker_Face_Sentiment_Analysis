@@ -306,7 +306,7 @@ function App() {
 
       {!isStarted ? (
         <LeftPanel>
-          <Title>서청센 페스티벌 - AI를 이겨라! 세번째 게임</Title>
+          <Title>AI가 학교에서 감정도 배운다고?!</Title>
           <h2>감정 표현 게임</h2>
           <h3>표현할 감정을 선택해주세요.</h3>
           
