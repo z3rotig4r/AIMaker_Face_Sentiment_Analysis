@@ -15,12 +15,12 @@ const emotionLabels = {
 };
 
 const emotionImages = {
-  angry: 'https://i.namu.wiki/i/TiPeiVX03crD9UIcCZ3edz-xknhXkVHokJic-4iWTknGtg7njmHQGrdOHjxVzJGKrJSpWo6vYN-Qir7q8Z1kaP8qV13tmSk0h-FhO5yxmsPRIuj9WWvTJ8Jn99SLIrQfLpaCifFfsn1BHKtJ_N89xw.webp',
-  disgust: 'https://i.namu.wiki/i/0FbYsOE9b_Csi9_KqbX-bU_4rXfjWIB3C-ovS6XVakA2dJfwe5uqfvUyX_bZUKq3PPzkGqM7aqiOK8kq8Njm0kFURTAGPnpo_GZMBZseEsXudgoiKvWhFU9rBsdf5_Srky6G3k8L34GTwIMMWXW0pw.webp',
-  fear: 'https://i.namu.wiki/i/j_KLF5-C3-vtVDPhaDiDb-4GDJMNWrh8VIb2dnYvOPoOOfxvh-KCs0BYGmqbAfvIpP2p00NYr98Br7j4RIjyXTDNPKQLAaOwLL99V9UZsNNDZuH0xs3ZTtKzRVGTvI1BCtmeCxhQSORxxeT8cIUoiw.webp',
-  happy: 'https://i.namu.wiki/i/n8K6xlXiVaqNFb70kC9EGj6JxlbbUbaOOSZnkS9vUGDE4h9G_ZwtJWaOIThGq5S9GTHTE28PV3Jle3jARNs99HUbPZu5ySAbVwicD_2E8w3ZTDKixkorliUFW4LTGgXjnESsRTSAWgnbB7WfakNtSQ.webp',
-  sad: 'https://i.namu.wiki/i/GHK43pum9pAkFnvEsa1Qmooe0-bHOrxw7EgHccc68zPjGtjgxQIh7su0oFaVsI4WJQCS0c4-o_Y9tAGc8aVFEtQXKW_57Be6ha07mx2lK-oagva-4DmJFkdgBxgV5sjd6PXbiY2CJesYjKYhvz9EXA.webp',
-  surprise: 'https://i.namu.wiki/i/znGSAu8SrTbRH7u39-rnSUTg6gdne_3CsL8Fz44S9sb7N0WdSByFU3hBJKSYEEP5gh-dT2VbseGMDHdPj49F2uJQi-E-eIqndqNd-JCm5nFamJcQqfbii_r9GZCyRTeC0fUIyxWgPabPL3404yMurg.webp'
+  angry: '../public/images/anger.png',
+  disgust: '../public/images/disgust.png',
+  fear: '../public/images/fearness.png',
+  happy: '../public/images/joy.png',
+  sad: '../public/images/sad.png',
+  surprise: '../public/images/surprise.png'
 };
 
 // 스타일 컴포넌트
