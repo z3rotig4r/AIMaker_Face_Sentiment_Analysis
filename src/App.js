@@ -15,12 +15,12 @@ const emotionLabels = {
 };
 
 const emotionImages = {
-  angry: '../public/images/anger.png',
-  disgust: '../public/images/disgust.png',
-  fear: '../public/images/fearness.png',
-  happy: '../public/images/joy.png',
-  sad: '../public/images/sad.png',
-  surprise: '../public/images/surprise.png'
+  angry: '/images/anger.png',
+  disgust: '/images/disgust.png',
+  fear: '/images/fearness.png',
+  happy: '/images/joy.png',
+  sad: '/images/sad.png',
+  surprise: '/images/surprise.png'
 };
 
 // 스타일 컴포넌트
